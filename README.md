@@ -63,7 +63,7 @@ Manutenção de software
 
 ![Waterfall](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Waterfall.png)
 
-Para seguir um modelo em cascata, o progresso de uma fase para a próxima se dá de uma forma puramente sequencial. Por exemplo, inicialmente completa-se a especificação de requisitos — elaborando um conjunto rígido de requisitos do software (Por exemplo, os requisitos para minha rede social do TP1 (MercadoLivre e Clientes) 
+Para seguir um modelo em cascata, o progresso de uma fase para a próxima se dá de uma forma puramente sequencial. Por exemplo, inicialmente completa-se a especificação de requisitos — elaborando um conjunto rígido de requisitos do software (Por exemplo, os requisitos para minha rede social (MercadoLivre e Clientes) 
 devem permitir acesso através de Login e Senha, preenchimento de perfil do cliente, busca de produtos, chat para perguntas sobre o produto e campo para efetuar a compra, embora as especificações dos requisitos reais sejam mais detalhados, em um procedimento para projeto. Como o software sempre faz parte de um sistema (ou negócio) maior, o trabalho começa pelo estabelecimento de requisitos para todos os elementos do sistema e depois pela alocação de algum subconjunto desses requisitos para o software. Essa visão de sistema é essencial quando o software precisa interagir com outros elementos, tais como hardware, pessoas e bases de dados.
 
 ### (Problemas)
@@ -157,3 +157,31 @@ Requisito de usuário são declarações, em uma linguagem natural somada a diag
 | 1.0 | 13/06/2021 | Elicitação dos requisitos | Júlio Cesar |
 | 1.0.1 | 13/06/2021 | Revisão gramatical | E.F.Jr |
 | 2.0 | 14/06/2021 | Uniformizando sub-títulos, centralizando tabelas e adicionando legendas | E.F.Jr |
+
+
+# Requisitos Funcionais (RF)  
+
+Definem as funcionalidades do sistema.  
+  
+Basicamente, especifícam o que o sistema deve fazer. Sem a implementação desses requisitos, o sistema não funciona como deveria-se chegar a funcionar.  
+
+De acordo com a Wikipedia:  
+
+"Requisitos Funcionais podem ser cálculos, detalhes técnicos, manipulação de dados e de processamento e outras funcionalidades específicas que definem o que um sistema, idealmente, será capaz de realizar."
+
+# Requisitos Não-Funcionais (RNF)  
+
+Indicam características de qualidade que o sistema deve possuir e que estão relacionadas às funcionalidades previstas.
+
+Algumas dessas características são:
+
+* Desempenho
+* Confiabilidade
+* Escalabilidade
+* Portabilidade
+* Usabilidade
+* Segurança  
+
+Os critérios que qualificam os requisitos não-funcionais são geralmente mensuráveis.
+
+
