@@ -191,6 +191,13 @@ Possuir cadastro na plataforma do sistema
     * Foto do produto em formato inválido  
     * Não inseriu localização do produto (Obrigatório) 
 
+| Dados: |  
+|--------|  
+Nome Produto: Texto, máximo de 150 caracteres, não pode conter números.
+Quantidade: Apenas números
+Data de fabricação: Somente números
+Marca: Texto, máximo de 40 caracteres
+
 | Regras de validação: |  
 |----------------------|  
 * Confirmar sobre o produto adicionado  
