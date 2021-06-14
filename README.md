@@ -1,86 +1,17 @@
+
+
+
 # ProjetoBloco-TP3-Edemir_Ferreira_Junior
-### (Principais pontos do CMMI, nível de maturidade - 1 a 5)
-##### Representações do Modelo CMMI
+### Professor: Júlio Cesar   
+# Plataforma de comercio de produtos diversos MercadoLivre
+### Objetivo do documento  
+#### O documento presente, tem como papel fundamental, elucidar sobre os objetivos da plataforma MercadoLivre, onde a proposta da mesma é o livre mercado, que pode ser trabalhado sem a necessidade de obter os custos de uma loja física. Nesta plataforma, é possível fazer controle de entrada e saída de produto, histórico de 6 meses com relação a produtos negociado salvo os que temos oferecido garantia de 1 ano além da garantia de fábrica.   
+#### É possível fazer emissão de Nota Fiscal, controle de envio de mercadorias.     
 
-O CMMI possui duas representações: a estagiada e a contínua. A representação
-estagiada permite que as organizações melhorem um conjunto de processos
-interrelacionados e, de forma incremental, tratem sucessivos conjuntos de PAs. A
-representação contínua, por sua vez, permite que as organizações melhorem de forma
-incremental os processos correspondentes a uma ou mais PAs. A empresa seleciona
-em que áreas de processo ela será avaliada. 
-
-##### Representação por Estágios
-
-Esta representação preocupa-se com os processos da organização como um
-todo, oferecendo uma abordagem estruturada e sistemática para a melhoria de um
-estágio por vez. Atingir um estágio significa que uma estrutura de processo adequada
-foi estabelecida como base para o próximo estágio [SEI 2006].
- As áreas de processo (PAs) são organizadas por níveis de maturidade – do
-nível “inicial” (nível 1) ao nível “em otimização” (nível 5) – que sugerem uma ordem
-para a implementação das áreas de processo. Cada nível possui várias PAs, e por sua
-vez, cada PA possui objetivos, práticas genéricas e específicas, assegurando assim uma
-base de melhoria adequada para o próximo nível de maturidade.
-
-Na representação por estágios, quando uma organização atinge as práticas necessárias para estar em um nível, significa que atinge todos os requisitos necessários dos níveis imediatamente anteriores conforme ilustrado na Figura abaixo:
-
-![CMMI](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/CMMI.png)
-
-##### A) Nível 1 - Inicial.
-
-É o nível de maturidade CMMI mais baixo. Em geral, as organizações desse nível têm processos imprevisíveis que são pobremente controlados e reativos. Nestes nível de maturidade não há PAs, os processos são normalmente imprevisíveis e caóticos, e a organização geralmente não fornece um ambiente estável.
+### Escopo do projeto  
+#### Um sistema simples com objetivo de ligar pessoas que tenham interesse de comprar e vender sem sair de casa, um meio prático para ambas as partes e que nos az ter mais tempo para exercer outras atividades sociais.  
 
 
-##### B) Nível 2 - Gerenciado.
-
-Neste nível, os projetos da organização têm a garantia de que os requisitos são gerenciados, planejados, executados, medidos e controlados. Quando essas práticas são adequadas, os projetos são executados e controlados de acordo com o planejado. O Gerenciamento de Projetos é o foco principal deste nível.
-
-
-##### C) Nível 3 - Definido.
-
-Nível em que todos os objetivos específicos e genéricos atribuídos para os níveis de maturidade 2 e 3 foram alcançados, os processos são mais bem caracterizados e entendidos e são descritos em padrões, procedimentos, ferramentas e métodos. O Foco neste nível é a padronização do processo.
-
-
-##### D) Nível 4 - Quantitavamente Gerenciado.
-
-Neste quarto nível, os objetivos específicos e genéricos atribuídos para os níveis de maturidade 2, 3 e 4 foram alcançados e os processos são medidos e controlados. O foco neste nível é o gerenciamento quantitativo.
-
-
-##### E) Nível 5 - Em Otimização.
-
-É o nível mais alto de maturidade CMMI, onde uma organização atingi todos os objetivos específicos atribuídos para os níveis de maturidade 2, 3, 4 e 5. Os processos são continuamente aperfeiçoados, considerando que a variação de um processo esta relacionada às interações, entre seus componentes tendo como foco principal a melhoria contínua do processo.
-
-
-### (Uso do modelo em cascata)
-
-No modelo em cascata original de Royce, as seguintes fases são seguidas em perfeita ordem:
-
-Requerimento
-Projeto
-Implementação
-Integração
-Teste e depuração (verificação)
-Manutenção de software
-
-![Waterfall](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Waterfall.png)
-
-Para seguir um modelo em cascata, o progresso de uma fase para a próxima se dá de uma forma puramente sequencial. Por exemplo, inicialmente completa-se a especificação de requisitos — elaborando um conjunto rígido de requisitos do software (Por exemplo, os requisitos para minha rede social (MercadoLivre e Clientes) 
-devem permitir acesso através de Login e Senha, preenchimento de perfil do cliente, busca de produtos, chat para perguntas sobre o produto e campo para efetuar a compra, embora as especificações dos requisitos reais sejam mais detalhados, em um procedimento para projeto. Como o software sempre faz parte de um sistema (ou negócio) maior, o trabalho começa pelo estabelecimento de requisitos para todos os elementos do sistema e depois pela alocação de algum subconjunto desses requisitos para o software. Essa visão de sistema é essencial quando o software precisa interagir com outros elementos, tais como hardware, pessoas e bases de dados.
-
-### (Problemas)
-
-Entre os problemas às vezes encontrados quando se aplica o modelo cascata, temos:
-
-1. Projetos reais raramente seguem o fluxo sequencial proposto pelo modelo. Embora o modelo linear possa conter iterações, ele o faz indiretamente. Como consequência, mudanças podem provocar confusão à medida que a equipe de projeto prossegue.
-
-2. Frequentemente, é difícil para o cliente estabelecer explicitamente todas as necessidades. O modelo cascata exige isso e tem dificuldade para adequar a incerteza natural existente no início de muitos projetos.
-
-3. O cliente deve ter paciência. Uma versão operacional do(s) programa(s) não estará disponível antes de estarmos próximos ao final do projeto. Um erro grave, se não detectado até o programa operacional ser revisto, pode ser desastroso.
-
-Outro problema com essa abordagem é que, em geral, é fácil verificar se o código funciona direito, mas não é tão fácil verificar se os modelos e projetos estão bem escritos. Para ser efetivamente viável, esse tipo de ciclo de vida necessitaria de ferramentas de análise automatizada de diagramas e documentos para verificar sua exatidão, mas tais ferramentas ainda são bastante limitadas.
-
-### (Requisitos de usuário)
-
-Requisito de usuário são declarações, em uma linguagem natural somada a diagramas, dos serviços que se espera que o sistema forneça para os usuários e das limitações sob as quais ele deve operar. Esses requisitos podem variar de declarações amplas das características necessárias do sistema até descrições precisas e detalhadas da sua funcionalidade.
 
 ## 1. Requisitos funcionais
 
@@ -182,6 +113,105 @@ Algumas dessas características são:
 * Usabilidade
 * Segurança  
 
-Os critérios que qualificam os requisitos não-funcionais são geralmente mensuráveis.
+Os critérios que qualificam os requisitos não-funcionais são geralmente mensuráveis.  
+
+# Usuários
+
+| Atores: |
+|---------|  
+* Usuário: Pessoa Física ou Jurídica  
+    * Sistema: Compra e venda de produtos diversos.  
+    
+| Pré-condições: |  
+|----------------|  
+* Criar perfil obrigatório para acessar sistema.  
+
+| Fluxo básico: |  
+|---------------|
+* O usuário fornece e-mail, senha e confirmações
+    * Os dados do usuário são validados, encriptados e persistidos pelo sistema.  
+    O sistema gera e envia um link, com prazo de expiração, para que o usuário confirme seu e-mail
+    O usuário confirma seu e-mail, clicando no link, antes do prazo de expiração
+    O sistema confirma que a conta do usuário foi criada com sucesso
+    O sistema redireciona o usuário para a página principal  
+
+| Fluxo alternativo: |  
+|--------------------|  
+* O e-mail ou a senha do usuário não são válidos  
+    * O sistema exibe uma mensagem para o usuário e retorna para refazer login
+
+        O usuário tenta confirmar o e-mail depois do prazo de expiração e recebe um erro pedindo para refazer processo anterior.
+
+        O sistema sugere que o usuário realize verificação dos dados ou informa que os dados não fazem parte de nenhum cadastro e oferece link para cadastro.
+
+| Dados: |  
+|--------|  
+Nome Fantasia: Texto, máximo de 150 caracteres, não pode conter números.
+Nome completo do usuário: Texto, máximo de 100 caracteres, não pode conter números
+CPF do usuário: Apenas números
+Data de nascimento: Somente maiores de 18 anos
+E-mail: Texto, máximo de 40 caracteres
+CNPJ da empresa: Máximo de 15 caracteres, só pode conter números
+Endereço: Logradouro, número, complemento, bairro, cidade e estado.
+Senha: Mais de 8 caracteres 
+
+
+
+| Regras de validação: |  
+|----------------------|  
+* Confirmação de e-mail e senha: o usuário deve fornecer os dados duas vezes para minimizar o risco de erro
+Validação de e-mail: verificar se o e-mail está em um formato válido, se o e-mail já consta na base de dados
+Validação de senha: verificar se a senha respeita os requisitos de segurança como:  
+(Uso de caractéres Maiúsculos e Minúsculos e caractéres especiais e números)  
+
+# Produtos  
+
+| Atores: |
+|---------|  
+* Usuário: Pessoa Física ou Jurídica  
+
+| Pré-condições: |  
+|----------------|  
+Possuir cadastro na plataforma do sistema  
+
+| Fluxo Básico: |  
+|---------------|
+* Usuário seleciona o campo de adicionar produtos  
+    * Informe título/nome do produto  
+    * Informe categoria do produto  
+    * Informe Preço  
+    * Insira foto do produto .jpeg  
+    * Insira localização do produto  
+
+| Fluxo alternativo: |  
+|--------------------|  
+* Os dados do produto não conferem  
+    * Nome do produto com categoria diferente  
+    * Preço inválido  
+    * Foto do produto em formato inválido  
+    * Não inseriu localização do produto (Obrigatório) 
+
+| Regras de validação: |  
+|----------------------|  
+* Confirmar sobre o produto adicionado  
+    * Nome do produto esta correto?  
+    * Preço esta correto?  
+    * Foto do produto esta correta?
+    * Inseriu localização do produto?
+
+## Matriz de Rastreabilidade
+
+EAS - Equipe de arquitetura de software
+
+|ID|Nome|Solicitante|Complexidade|Prioridade|Requisito Relacionado|Status|
+|:-:|:--:|:--------:|:----------:|:--------:|:-------------------:|:----:|
+|Usuário|CRUD Vendedores/Compradores|MercadoLivre|Baixa|Média|n/a|Concluído|
+|Produto|CRUD Produtos|MercadoLivre|Média|Média|n/a|Concluído|  
+
+## Referências
+
+Perguntas frequentes, acesse: https://www.mercadolivre.com.br/ajuda/vendendo_643  
+
+
 
 
